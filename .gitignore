@@ -1,0 +1,43 @@
+# Folders
+build*
+lib
+bin
+devel
+install
+notbuild
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.pyc
+*~
+*.p
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# catkin_make
+.catkin_workspace
+src/CMakeLists.txt
+
+# cmake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# octomap
+#*.bt
+*.ot

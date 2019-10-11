@@ -1,0 +1,995 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.50555557
+    Tree Height: 430
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.588679016
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: PointCloud2
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.0299999993
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: PointCloud2
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.00999999978
+      Style: Flat Squares
+      Topic: /octomap_point_cloud_centers
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /normal_extractor_node/normals_visualize
+      Name: MarkerArray
+      Namespaces:
+        normal_0: true
+        normal_100: true
+        normal_1000: true
+        normal_10000: true
+        normal_10020: true
+        normal_10040: true
+        normal_10060: true
+        normal_10080: true
+        normal_10100: true
+        normal_10120: true
+        normal_10140: true
+        normal_10160: true
+        normal_10180: true
+        normal_1020: true
+        normal_10200: true
+        normal_10220: true
+        normal_10240: true
+        normal_10260: true
+        normal_10280: true
+        normal_10300: true
+        normal_10320: true
+        normal_10340: true
+        normal_10360: true
+        normal_10380: true
+        normal_1040: true
+        normal_10400: true
+        normal_10420: true
+        normal_10440: true
+        normal_10460: true
+        normal_10480: true
+        normal_10500: true
+        normal_10520: true
+        normal_10540: true
+        normal_10560: true
+        normal_10580: true
+        normal_1060: true
+        normal_10600: true
+        normal_10620: true
+        normal_10640: true
+        normal_10660: true
+        normal_10680: true
+        normal_10700: true
+        normal_10720: true
+        normal_10740: true
+        normal_10760: true
+        normal_10780: true
+        normal_1080: true
+        normal_10800: true
+        normal_10820: true
+        normal_10840: true
+        normal_10860: true
+        normal_10880: true
+        normal_10900: true
+        normal_10920: true
+        normal_10940: true
+        normal_10960: true
+        normal_10980: true
+        normal_1100: true
+        normal_11000: true
+        normal_11020: true
+        normal_11040: true
+        normal_11060: true
+        normal_11080: true
+        normal_11100: true
+        normal_11120: true
+        normal_11140: true
+        normal_11160: true
+        normal_11180: true
+        normal_1120: true
+        normal_11200: true
+        normal_11220: true
+        normal_11240: true
+        normal_11260: true
+        normal_11280: true
+        normal_11300: true
+        normal_11320: true
+        normal_11340: true
+        normal_11360: true
+        normal_11380: true
+        normal_1140: true
+        normal_11400: true
+        normal_11420: true
+        normal_11440: true
+        normal_11460: true
+        normal_11480: true
+        normal_11500: true
+        normal_11520: true
+        normal_11540: true
+        normal_11560: true
+        normal_11580: true
+        normal_1160: true
+        normal_11600: true
+        normal_11620: true
+        normal_11640: true
+        normal_11660: true
+        normal_11680: true
+        normal_11700: true
+        normal_11720: true
+        normal_11740: true
+        normal_11760: true
+        normal_11780: true
+        normal_1180: true
+        normal_11800: true
+        normal_11820: true
+        normal_11840: true
+        normal_11860: true
+        normal_11880: true
+        normal_11900: true
+        normal_11920: true
+        normal_11940: true
+        normal_11960: true
+        normal_11980: true
+        normal_120: true
+        normal_1200: true
+        normal_12000: true
+        normal_12020: true
+        normal_12040: true
+        normal_12060: true
+        normal_12080: true
+        normal_12100: true
+        normal_12120: true
+        normal_12140: true
+        normal_12160: true
+        normal_12180: true
+        normal_1220: true
+        normal_12200: true
+        normal_12220: true
+        normal_12240: true
+        normal_12260: true
+        normal_12280: true
+        normal_12300: true
+        normal_12320: true
+        normal_12340: true
+        normal_12360: true
+        normal_12380: true
+        normal_1240: true
+        normal_12400: true
+        normal_12420: true
+        normal_12440: true
+        normal_12460: true
+        normal_12480: true
+        normal_12500: true
+        normal_12520: true
+        normal_12540: true
+        normal_12560: true
+        normal_12580: true
+        normal_1260: true
+        normal_12600: true
+        normal_12620: true
+        normal_12640: true
+        normal_12660: true
+        normal_12680: true
+        normal_12700: true
+        normal_12720: true
+        normal_12740: true
+        normal_12760: true
+        normal_12780: true
+        normal_1280: true
+        normal_12800: true
+        normal_12820: true
+        normal_12840: true
+        normal_12860: true
+        normal_12880: true
+        normal_12900: true
+        normal_12920: true
+        normal_12940: true
+        normal_12960: true
+        normal_12980: true
+        normal_1300: true
+        normal_13000: true
+        normal_13020: true
+        normal_13040: true
+        normal_13060: true
+        normal_13080: true
+        normal_13100: true
+        normal_13120: true
+        normal_13140: true
+        normal_13160: true
+        normal_13180: true
+        normal_1320: true
+        normal_13200: true
+        normal_13220: true
+        normal_13240: true
+        normal_13260: true
+        normal_13280: true
+        normal_13300: true
+        normal_13320: true
+        normal_13340: true
+        normal_13360: true
+        normal_13380: true
+        normal_1340: true
+        normal_13400: true
+        normal_13420: true
+        normal_13440: true
+        normal_13460: true
+        normal_13480: true
+        normal_13500: true
+        normal_13520: true
+        normal_13540: true
+        normal_13560: true
+        normal_13580: true
+        normal_1360: true
+        normal_13600: true
+        normal_13620: true
+        normal_13640: true
+        normal_13660: true
+        normal_13680: true
+        normal_13700: true
+        normal_13720: true
+        normal_13740: true
+        normal_13760: true
+        normal_13780: true
+        normal_1380: true
+        normal_13800: true
+        normal_13820: true
+        normal_13840: true
+        normal_13860: true
+        normal_13880: true
+        normal_13900: true
+        normal_13920: true
+        normal_13940: true
+        normal_13960: true
+        normal_13980: true
+        normal_140: true
+        normal_1400: true
+        normal_14000: true
+        normal_14020: true
+        normal_14040: true
+        normal_14060: true
+        normal_14080: true
+        normal_14100: true
+        normal_14120: true
+        normal_14140: true
+        normal_14160: true
+        normal_14180: true
+        normal_1420: true
+        normal_14200: true
+        normal_14220: true
+        normal_14240: true
+        normal_14260: true
+        normal_14280: true
+        normal_14300: true
+        normal_14320: true
+        normal_14340: true
+        normal_14360: true
+        normal_14380: true
+        normal_1440: true
+        normal_14400: true
+        normal_14420: true
+        normal_14440: true
+        normal_14460: true
+        normal_14480: true
+        normal_14500: true
+        normal_14520: true
+        normal_14540: true
+        normal_14560: true
+        normal_14580: true
+        normal_1460: true
+        normal_14600: true
+        normal_14620: true
+        normal_14640: true
+        normal_14660: true
+        normal_14680: true
+        normal_14700: true
+        normal_14720: true
+        normal_14740: true
+        normal_14760: true
+        normal_14780: true
+        normal_1480: true
+        normal_14800: true
+        normal_14820: true
+        normal_14840: true
+        normal_14860: true
+        normal_14880: true
+        normal_14900: true
+        normal_14920: true
+        normal_14940: true
+        normal_14960: true
+        normal_14980: true
+        normal_1500: true
+        normal_15000: true
+        normal_15020: true
+        normal_15040: true
+        normal_15060: true
+        normal_15080: true
+        normal_15100: true
+        normal_15120: true
+        normal_15140: true
+        normal_15160: true
+        normal_15180: true
+        normal_1520: true
+        normal_15200: true
+        normal_15220: true
+        normal_15240: true
+        normal_15260: true
+        normal_15280: true
+        normal_15300: true
+        normal_15320: true
+        normal_15340: true
+        normal_15360: true
+        normal_15380: true
+        normal_1540: true
+        normal_15400: true
+        normal_15420: true
+        normal_15440: true
+        normal_15460: true
+        normal_15480: true
+        normal_15500: true
+        normal_15520: true
+        normal_15540: true
+        normal_15560: true
+        normal_15580: true
+        normal_1560: true
+        normal_15600: true
+        normal_15620: true
+        normal_15640: true
+        normal_15660: true
+        normal_15680: true
+        normal_15700: true
+        normal_15720: true
+        normal_15740: true
+        normal_15760: true
+        normal_15780: true
+        normal_1580: true
+        normal_15800: true
+        normal_15820: true
+        normal_15840: true
+        normal_15860: true
+        normal_15880: true
+        normal_15900: true
+        normal_15920: true
+        normal_15940: true
+        normal_15960: true
+        normal_15980: true
+        normal_160: true
+        normal_1600: true
+        normal_16000: true
+        normal_16020: true
+        normal_16040: true
+        normal_16060: true
+        normal_16080: true
+        normal_16100: true
+        normal_16120: true
+        normal_16140: true
+        normal_16160: true
+        normal_16180: true
+        normal_1620: true
+        normal_16200: true
+        normal_16220: true
+        normal_16240: true
+        normal_16260: true
+        normal_16280: true
+        normal_16300: true
+        normal_16320: true
+        normal_16340: true
+        normal_16360: true
+        normal_16380: true
+        normal_1640: true
+        normal_16400: true
+        normal_16420: true
+        normal_16440: true
+        normal_16460: true
+        normal_16480: true
+        normal_16500: true
+        normal_16520: true
+        normal_16540: true
+        normal_16560: true
+        normal_16580: true
+        normal_1660: true
+        normal_16600: true
+        normal_1680: true
+        normal_1700: true
+        normal_1720: true
+        normal_1740: true
+        normal_1760: true
+        normal_1780: true
+        normal_180: true
+        normal_1800: true
+        normal_1820: true
+        normal_1840: true
+        normal_1860: true
+        normal_1880: true
+        normal_1900: true
+        normal_1920: true
+        normal_1940: true
+        normal_1960: true
+        normal_1980: true
+        normal_20: true
+        normal_200: true
+        normal_2000: true
+        normal_2020: true
+        normal_2040: true
+        normal_2060: true
+        normal_2080: true
+        normal_2100: true
+        normal_2120: true
+        normal_2140: true
+        normal_2160: true
+        normal_2180: true
+        normal_220: true
+        normal_2200: true
+        normal_2220: true
+        normal_2240: true
+        normal_2260: true
+        normal_2280: true
+        normal_2300: true
+        normal_2320: true
+        normal_2340: true
+        normal_2360: true
+        normal_2380: true
+        normal_240: true
+        normal_2400: true
+        normal_2420: true
+        normal_2440: true
+        normal_2460: true
+        normal_2480: true
+        normal_2500: true
+        normal_2520: true
+        normal_2540: true
+        normal_2560: true
+        normal_2580: true
+        normal_260: true
+        normal_2600: true
+        normal_2620: true
+        normal_2640: true
+        normal_2660: true
+        normal_2680: true
+        normal_2700: true
+        normal_2720: true
+        normal_2740: true
+        normal_2760: true
+        normal_2780: true
+        normal_280: true
+        normal_2800: true
+        normal_2820: true
+        normal_2840: true
+        normal_2860: true
+        normal_2880: true
+        normal_2900: true
+        normal_2920: true
+        normal_2940: true
+        normal_2960: true
+        normal_2980: true
+        normal_300: true
+        normal_3000: true
+        normal_3020: true
+        normal_3040: true
+        normal_3060: true
+        normal_3080: true
+        normal_3100: true
+        normal_3120: true
+        normal_3140: true
+        normal_3160: true
+        normal_3180: true
+        normal_320: true
+        normal_3200: true
+        normal_3220: true
+        normal_3240: true
+        normal_3260: true
+        normal_3280: true
+        normal_3300: true
+        normal_3320: true
+        normal_3340: true
+        normal_3360: true
+        normal_3380: true
+        normal_340: true
+        normal_3400: true
+        normal_3420: true
+        normal_3440: true
+        normal_3460: true
+        normal_3480: true
+        normal_3500: true
+        normal_3520: true
+        normal_3540: true
+        normal_3560: true
+        normal_3580: true
+        normal_360: true
+        normal_3600: true
+        normal_3620: true
+        normal_3640: true
+        normal_3660: true
+        normal_3680: true
+        normal_3700: true
+        normal_3720: true
+        normal_3740: true
+        normal_3760: true
+        normal_3780: true
+        normal_380: true
+        normal_3800: true
+        normal_3820: true
+        normal_3840: true
+        normal_3860: true
+        normal_3880: true
+        normal_3900: true
+        normal_3920: true
+        normal_3940: true
+        normal_3960: true
+        normal_3980: true
+        normal_40: true
+        normal_400: true
+        normal_4000: true
+        normal_4020: true
+        normal_4040: true
+        normal_4060: true
+        normal_4080: true
+        normal_4100: true
+        normal_4120: true
+        normal_4140: true
+        normal_4160: true
+        normal_4180: true
+        normal_420: true
+        normal_4200: true
+        normal_4220: true
+        normal_4240: true
+        normal_4260: true
+        normal_4280: true
+        normal_4300: true
+        normal_4320: true
+        normal_4340: true
+        normal_4360: true
+        normal_4380: true
+        normal_440: true
+        normal_4400: true
+        normal_4420: true
+        normal_4440: true
+        normal_4460: true
+        normal_4480: true
+        normal_4500: true
+        normal_4520: true
+        normal_4540: true
+        normal_4560: true
+        normal_4580: true
+        normal_460: true
+        normal_4600: true
+        normal_4620: true
+        normal_4640: true
+        normal_4660: true
+        normal_4680: true
+        normal_4700: true
+        normal_4720: true
+        normal_4740: true
+        normal_4760: true
+        normal_4780: true
+        normal_480: true
+        normal_4800: true
+        normal_4820: true
+        normal_4840: true
+        normal_4860: true
+        normal_4880: true
+        normal_4900: true
+        normal_4920: true
+        normal_4940: true
+        normal_4960: true
+        normal_4980: true
+        normal_500: true
+        normal_5000: true
+        normal_5020: true
+        normal_5040: true
+        normal_5060: true
+        normal_5080: true
+        normal_5100: true
+        normal_5120: true
+        normal_5140: true
+        normal_5160: true
+        normal_5180: true
+        normal_520: true
+        normal_5200: true
+        normal_5220: true
+        normal_5240: true
+        normal_5260: true
+        normal_5280: true
+        normal_5300: true
+        normal_5320: true
+        normal_5340: true
+        normal_5360: true
+        normal_5380: true
+        normal_540: true
+        normal_5400: true
+        normal_5420: true
+        normal_5440: true
+        normal_5460: true
+        normal_5480: true
+        normal_5500: true
+        normal_5520: true
+        normal_5540: true
+        normal_5560: true
+        normal_5580: true
+        normal_560: true
+        normal_5600: true
+        normal_5620: true
+        normal_5640: true
+        normal_5660: true
+        normal_5680: true
+        normal_5700: true
+        normal_5720: true
+        normal_5740: true
+        normal_5760: true
+        normal_5780: true
+        normal_580: true
+        normal_5800: true
+        normal_5820: true
+        normal_5840: true
+        normal_5860: true
+        normal_5880: true
+        normal_5900: true
+        normal_5920: true
+        normal_5940: true
+        normal_5960: true
+        normal_5980: true
+        normal_60: true
+        normal_600: true
+        normal_6000: true
+        normal_6020: true
+        normal_6040: true
+        normal_6060: true
+        normal_6080: true
+        normal_6100: true
+        normal_6120: true
+        normal_6140: true
+        normal_6160: true
+        normal_6180: true
+        normal_620: true
+        normal_6200: true
+        normal_6220: true
+        normal_6240: true
+        normal_6260: true
+        normal_6280: true
+        normal_6300: true
+        normal_6320: true
+        normal_6340: true
+        normal_6360: true
+        normal_6380: true
+        normal_640: true
+        normal_6400: true
+        normal_6420: true
+        normal_6440: true
+        normal_6460: true
+        normal_6480: true
+        normal_6500: true
+        normal_6520: true
+        normal_6540: true
+        normal_6560: true
+        normal_6580: true
+        normal_660: true
+        normal_6600: true
+        normal_6620: true
+        normal_6640: true
+        normal_6660: true
+        normal_6680: true
+        normal_6700: true
+        normal_6720: true
+        normal_6740: true
+        normal_6760: true
+        normal_6780: true
+        normal_680: true
+        normal_6800: true
+        normal_6820: true
+        normal_6840: true
+        normal_6860: true
+        normal_6880: true
+        normal_6900: true
+        normal_6920: true
+        normal_6940: true
+        normal_6960: true
+        normal_6980: true
+        normal_700: true
+        normal_7000: true
+        normal_7020: true
+        normal_7040: true
+        normal_7060: true
+        normal_7080: true
+        normal_7100: true
+        normal_7120: true
+        normal_7140: true
+        normal_7160: true
+        normal_7180: true
+        normal_720: true
+        normal_7200: true
+        normal_7220: true
+        normal_7240: true
+        normal_7260: true
+        normal_7280: true
+        normal_7300: true
+        normal_7320: true
+        normal_7340: true
+        normal_7360: true
+        normal_7380: true
+        normal_740: true
+        normal_7400: true
+        normal_7420: true
+        normal_7440: true
+        normal_7460: true
+        normal_7480: true
+        normal_7500: true
+        normal_7520: true
+        normal_7540: true
+        normal_7560: true
+        normal_7580: true
+        normal_760: true
+        normal_7600: true
+        normal_7620: true
+        normal_7640: true
+        normal_7660: true
+        normal_7680: true
+        normal_7700: true
+        normal_7720: true
+        normal_7740: true
+        normal_7760: true
+        normal_7780: true
+        normal_780: true
+        normal_7800: true
+        normal_7820: true
+        normal_7840: true
+        normal_7860: true
+        normal_7880: true
+        normal_7900: true
+        normal_7920: true
+        normal_7940: true
+        normal_7960: true
+        normal_7980: true
+        normal_80: true
+        normal_800: true
+        normal_8000: true
+        normal_8020: true
+        normal_8040: true
+        normal_8060: true
+        normal_8080: true
+        normal_8100: true
+        normal_8120: true
+        normal_8140: true
+        normal_8160: true
+        normal_8180: true
+        normal_820: true
+        normal_8200: true
+        normal_8220: true
+        normal_8240: true
+        normal_8260: true
+        normal_8280: true
+        normal_8300: true
+        normal_8320: true
+        normal_8340: true
+        normal_8360: true
+        normal_8380: true
+        normal_840: true
+        normal_8400: true
+        normal_8420: true
+        normal_8440: true
+        normal_8460: true
+        normal_8480: true
+        normal_8500: true
+        normal_8520: true
+        normal_8540: true
+        normal_8560: true
+        normal_8580: true
+        normal_860: true
+        normal_8600: true
+        normal_8620: true
+        normal_8640: true
+        normal_8660: true
+        normal_8680: true
+        normal_8700: true
+        normal_8720: true
+        normal_8740: true
+        normal_8760: true
+        normal_8780: true
+        normal_880: true
+        normal_8800: true
+        normal_8820: true
+        normal_8840: true
+        normal_8860: true
+        normal_8880: true
+        normal_8900: true
+        normal_8920: true
+        normal_8940: true
+        normal_8960: true
+        normal_8980: true
+        normal_900: true
+        normal_9000: true
+        normal_9020: true
+        normal_9040: true
+        normal_9060: true
+        normal_9080: true
+        normal_9100: true
+        normal_9120: true
+        normal_9140: true
+        normal_9160: true
+        normal_9180: true
+        normal_920: true
+        normal_9200: true
+        normal_9220: true
+        normal_9240: true
+        normal_9260: true
+        normal_9280: true
+        normal_9300: true
+        normal_9320: true
+        normal_9340: true
+        normal_9360: true
+        normal_9380: true
+        normal_940: true
+        normal_9400: true
+        normal_9420: true
+        normal_9440: true
+        normal_9460: true
+        normal_9480: true
+        normal_9500: true
+        normal_9520: true
+        normal_9540: true
+        normal_9560: true
+        normal_9580: true
+        normal_960: true
+        normal_9600: true
+        normal_9620: true
+        normal_9640: true
+        normal_9660: true
+        normal_9680: true
+        normal_9700: true
+        normal_9720: true
+        normal_9740: true
+        normal_9760: true
+        normal_9780: true
+        normal_980: true
+        normal_9800: true
+        normal_9820: true
+        normal_9840: true
+        normal_9860: true
+        normal_9880: true
+        normal_9900: true
+        normal_9920: true
+        normal_9940: true
+        normal_9960: true
+        normal_9980: true
+      Queue Size: 100
+      Value: true
+    - Class: octomap_rviz_plugin/ColorOccupancyGrid
+      Enabled: false
+      Max. Height Display: 3
+      Max. Octree Depth: 16
+      Min. Height Display: -3.40282347e+38
+      Name: ColorOccupancyGrid
+      Octomap Topic: /octomap_full
+      Queue Size: 5
+      Value: false
+      Voxel Alpha: 1
+      Voxel Coloring: Z-Axis
+      Voxel Rendering: Occupied Voxels
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 85.4454269
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -9.19483089
+        Y: 8.74397469
+        Z: -1.85984766
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.929796457
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 5.33359337
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: true
+  Height: 1056
+  Hide Left Dock: true
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000016a00000396fc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006100fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c00610079007300000000280000023d000000d700fffffffb0000000a00560069006500770073000000026b00000153000000ad00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f00000396fc0200000002fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007510000003efc0100000002fb0000000800540069006d00650000000000000007510000030000fffffffb0000000800540069006d0065010000000000000450000000000000000000000751000003da00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 1873
+  X: 47
+  Y: 24
